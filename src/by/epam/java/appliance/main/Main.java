@@ -18,17 +18,17 @@ public class Main {
 		Microvawe testMicrovawe = new Microvawe("Test", 99, "14 days", "some test text", "X");
 
 		
-		catalog.add(new Freezer("Atlant", 10.25, "20 days", "b4503", "40L"));
-		catalog.add(new Freezer("LG", 30.99, "10 days", "L58334", "50L"));
-		catalog.add(new Freezer("Bosch", 50.49, "30 days", "RQWRU234", "20L"));
-		catalog.add(new Freezer("Bosch", 30.99, "25 days", "RQWRU24452", "40L"));
-		catalog.add(new Freezer("Samsung", 40.99, "20 days", "SFGE423RG", "90L"));
-		catalog.add(new Microvawe("Vitek", 15.99, "99 days", "This is good one", "L"));
-		catalog.add(new Microvawe("Philips", 19.99, "360 days", "This is old one", "M"));
-		catalog.add(new Microvawe("Samsung", 21.99, "15 days", "This is almost new one", "S"));
-		catalog.add(new Microvawe("Vitek", 85.99, "2 days", "This is rather good one", "S"));
-		catalog.add(new Microvawe("LG", 12.99, "1465 days", "This is old one", "XXXL"));
-		catalog.add(testMicrovawe);
+		logic.addAppliance(new Freezer("Atlant", 10.25, "20 days", "b4503", "40L"));
+		logic.addAppliance(new Freezer("LG", 30.99, "10 days", "L58334", "50L"));
+		logic.addAppliance(new Freezer("Bosch", 50.49, "30 days", "RQWRU234", "20L"));
+		logic.addAppliance(new Freezer("Bosch", 30.99, "25 days", "RQWRU24452", "40L"));
+		logic.addAppliance(new Freezer("Samsung", 40.99, "20 days", "SFGE423RG", "90L"));
+		logic.addAppliance(new Microvawe("Vitek", 15.99, "99 days", "This is good one", "L"));
+		logic.addAppliance(new Microvawe("Philips", 19.99, "360 days", "This is old one", "M"));
+		logic.addAppliance(new Microvawe("Samsung", 21.99, "15 days", "This is almost new one", "S"));
+		logic.addAppliance(new Microvawe("Vitek", 85.99, "2 days", "This is rather good one", "S"));
+		logic.addAppliance(new Microvawe("LG", 12.99, "1465 days", "This is old one", "XXXL"));
+		logic.addAppliance(testMicrovawe);
 		
 			
 		
