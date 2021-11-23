@@ -14,7 +14,9 @@ public class ApplianceLogic {
 		this.catalog = catalog;
 	}
 	
-	
+	public void addAppliance(Appliance a) {
+		catalog.add(a);
+	}
 	
 	
 	public List<Appliance> findByPriceRange(double fromPrice, double toPrice){
